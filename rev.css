@@ -1,0 +1,127 @@
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    padding: 20px;  
+   }
+   .first{
+      height: 100px;
+      width: 1260px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: white; 
+   }
+   .logo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       float: left;
+       margin-left:30px;
+       color: navy;
+   }
+   .iconbar{
+     height: 80px;
+     width: 200px;
+     gap: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .icon1 {
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+       
+     }
+     
+     .icon2 {
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+     }
+     .icon3{
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+     }
+     .icon1:hover {
+       color: navy ;
+     }
+     .icon2:hover {
+       color: navy ;
+     }
+     .icon3:hover {
+       color: navy ;
+     }
+     body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .reviews-section {
+        padding: 40px 20px;
+        background-color: #e6edf9;
+    }
+    
+    .section-title {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .highlight {
+        background-color: #2e7d32;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+    
+    .review-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .review-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .review-text {
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+    .reviewer-name {
+        font-size: 1.1em;
+        color: #003366;
+        margin: 5px 0;
+    }
+    
+    .stars {
+        color: orange;
+        font-size: 1.2em;
+    }
+    

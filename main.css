@@ -1,0 +1,197 @@
+.link{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ gap: 15px;
+ font-size: 18px;
+ padding: 20px;
+ background-color: white;  
+}
+.link a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.first{
+   height: 100px;
+   width: 1260px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left:30px;
+    color: navy;
+}
+.iconbar{
+  height: 80px;
+  width: 200px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon1 {
+    display: flex;
+    gap: 5px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 10px;
+    
+  }
+  
+  .icon2 {
+    display: flex;
+    gap: 5px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon3{
+    display: flex;
+    gap: 5px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon1:hover {
+    color: navy ;
+  }
+  .icon2:hover {
+    color: navy ;
+  }
+  .icon3:hover {
+    color: navy ;
+  }
+  .container{
+    height: 450px;
+    width: 1260px;
+    background-image: url(banner-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 170px;
+    margin-left: 170px;
+  }
+  span{
+    color: green;
+  }
+  p{
+    margin-bottom: -150px;
+    margin-left: -380px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+  }
+  button{
+    margin-top: 100px;
+    margin-left: -440px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid green;
+  }
+  .shop:hover{
+    background-color: green;
+  }
+  .site-footer {
+    background: var(--bg-footer);
+    padding: 40px 20px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 180px;
+  }
+  
+  .footer-logo {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-tagline {
+    font-size: 0.95rem;
+    color: var(--secondary-text);
+    margin-bottom: 15px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: var(--primary-text);
+    text-decoration: none;
+  }
+  
+  .contact-list,
+  .quick-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-list li,
+  .quick-links li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .contact-list i,
+  .quick-links i {
+    margin-right: 8px;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: var(--secondary-text);
+    display: inline-block;
+  }
+  .quick-links a:hover {
+    color: var(--link-color);
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin: 10px 0 15px;
+  }
+  .newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  .newsletter-form button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .payment-icons img {
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--secondary-text);
+    margin-top: 20px;
+  }

@@ -1,0 +1,140 @@
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    padding: 20px;  
+   }
+   .first{
+      height: 100px;
+      width: 1200px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: white; 
+   }
+   .logo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       float: left;
+       margin-left:30px;
+       color: navy;
+   }
+   .iconbar{
+     height: 80px;
+     width: 200px;
+     gap: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .icon1 {
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+       
+     }
+     
+     .icon2 {
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+     }
+     .icon3{
+       display: flex;
+       gap: 5px;
+       background-color: lightgray;
+       font-size: 20px;
+       padding: 10px;
+     }
+     .icon1:hover {
+       color: navy ;
+     }
+     .icon2:hover {
+       color: navy ;
+     }
+     .icon3:hover {
+       color: navy ;
+     }
+     body {
+        font-family: Arial, sans-serif;
+        background: white;
+        margin: 0;
+        padding: 20px;
+        background-image: linear-gradient(lightgray);
+      }
+      
+      .blog-section h1 {
+        text-align: center;
+        font-size: 2.5em;
+      }
+      
+      .highlight {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      
+      .blog-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+      }
+      
+      .blog-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 30%;
+        overflow: hidden;
+      }
+      
+      .blog-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .blog-info {
+        padding: 15px;
+      }
+      
+      .blog-info h3 {
+        margin: 10px 0;
+        color: #333;
+      }
+      
+      .blog-info .desc {
+        color: #666;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+      }
+      
+      button {
+        background: white;
+        border: 2px solid #333;
+        padding: 8px 15px;
+        cursor: pointer;
+        font-weight: bold;
+        color: #333;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        background: green;
+        color: white;
+      }
+      
+      .icon {
+        margin-right: 5px;
+      }
+      
